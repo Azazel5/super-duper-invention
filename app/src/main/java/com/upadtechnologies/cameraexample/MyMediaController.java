@@ -4,9 +4,9 @@ import android.content.Context;
 import android.content.pm.ActivityInfo;
 import android.support.v7.app.AppCompatActivity;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
+import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.FrameLayout;
@@ -36,7 +36,7 @@ public class MyMediaController extends MediaController{
             @Override
             public void onClick(View view)
             {
-                mAppCompatActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+                mAppCompatActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE);
             }
         });
 
@@ -47,7 +47,7 @@ public class MyMediaController extends MediaController{
             @Override
             public void onClick(View view)
             {
-              mAppCompatActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+              mAppCompatActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR_PORTRAIT);
             }
         });
 
@@ -58,5 +58,6 @@ public class MyMediaController extends MediaController{
         FrameLayout.LayoutParams paramsPort = new FrameLayout.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
         paramsPort.gravity = Gravity.LEFT;
         addView(portraitButton, paramsPort);
+
     }
 }

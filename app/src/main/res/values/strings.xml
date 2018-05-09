@@ -3,4 +3,18 @@
     <string name="take_pic">Take a picture!</string>
     <string name="take_vid">Take a video!</string>
     <string name="landscape_button">R</string>
+    <string name="about_chrome_cast">
+        Chromecast is a line of digital media players developed by Google.
+        The devices, designed as small dongles, enable users with a mobile device or personal computer
+        to initiate and control playback of Internet-streamed audio-visual content on a high-definition
+        television or home audio system through mobile and web apps that support the Google Cast technology.
+        The first-generation Chromecast, a video streaming device, was announced on July 24, 2013, and made
+        available for purchase on the same day in the United States for US$35.[4] The second-generation Chromecast
+        and an audio-only model called Chromecast Audio were released in September 2015. A model called Chromecast
+        Ultra that supports 4K resolution and high dynamic range was released in November 2016. Critics praised the
+        Chromecast simplicity and potential for future app support. The Google Cast SDK was released on February 3,
+        2014, allowing third parties to modify their software to work with Chromecast and other Cast receivers. According
+        to Google, over 20,000 Google Cast–ready apps are available, as of May 2015. Over 30 million units have sold globally
+        since launch, making the Chromecast the best-selling streaming device in the United States in 2014, according to NPD Group.
+        From Chromecast launch to May 2015, it has handled more than 1.5 billion stream requests.</string>
 </resources>

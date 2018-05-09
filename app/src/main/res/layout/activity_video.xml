@@ -1,7 +1,14 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.upadtechnologies.cameraexample.MyScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:id="@+id/scroll_view"
     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
     <VideoView
         android:id="@+id/video_view"
@@ -9,4 +16,21 @@
         android:layout_height="250dp"
         />
 
-</RelativeLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/random_text_view"
+        android:background="@android:color/transparent"
+        android:textAlignment="center"
+        android:hint="@string/app_name"
+        android:layout_below="@+id/video_view"
+        android:text="@string/about_chrome_cast"
+        android:clickable="false"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        />
+
+    </RelativeLayout>
+
+</com.upadtechnologies.cameraexample.MyScrollView>
